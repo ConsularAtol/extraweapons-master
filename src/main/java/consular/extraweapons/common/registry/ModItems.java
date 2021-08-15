@@ -21,19 +21,14 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     
+    //setting variables to make shit WAY easier.
     private static final String MODID = ExtraWeapons.MODID;
-
-    //public static final Item RAW_BAT = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(0.6f).meat().statusEffect(new StatusEffectInstance(StatusEffects.HUNGER,20*6), 0.25f).build()));
-    //public static final Item COOKED_BAT = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(7).saturationModifier(7.2f).meat().build()));
-
     public static final ArmorMaterial REDSTONE_ARMOR = new ArmorMaterialRedstone();
     public static final ArmorMaterial LAPIS_ARMOR = new ArmorMaterialLapis();
     public static final ArmorMaterial EMERALD_ARMOR = new ArmorMaterialEmerald();
 
+    //registers every item.
     public static void registerItems(){
-        //Registry.register(Registry.ITEM,new Identifier(MODID,"raw_bat"), RAW_BAT);
-        //Registry.register(Registry.ITEM,new Identifier(MODID,"cooked_bat"), COOKED_BAT);
-
         Registry.register(Registry.ITEM,new Identifier(MODID,"redstone_pickaxe"), new PickaxeBase(new ToolMaterialRedstone()));
         Registry.register(Registry.ITEM,new Identifier(MODID,"redstone_axe"), new AxeBase(new ToolMaterialRedstone()));
         Registry.register(Registry.ITEM,new Identifier(MODID,"redstone_sword"), new SwordBase(new ToolMaterialRedstone()));
