@@ -9,7 +9,7 @@ public class ExtraWeapons implements ModInitializer {
 	public static final String MODID = "extraweapons";
 
 	@Override
-	//I have the item and block registering code in seperate scripts, simply to make things cleaner.l
+	//I have the item and block registering code in seperate scripts, simply to make things cleaner.
 	public void onInitialize() {
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
