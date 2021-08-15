@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "extraweapons:items/cooked_bat"
-    }
-}
