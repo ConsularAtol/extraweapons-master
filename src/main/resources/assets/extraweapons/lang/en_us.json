@@ -1,0 +1,34 @@
+{
+    "item.extraweapons.raw_bat": "Raw Bat",
+    "item.extraweapons.cooked_bat": "Cooked Bat",
+
+    "item.extraweapons.redstone_pickaxe": "Redstone Pickaxe",
+    "item.extraweapons.redstone_axe": "Redstone Axe",
+    "item.extraweapons.redstone_sword": "Redstone Sword",
+    "item.extraweapons.redstone_shovel": "Redstone Shovel",
+    "item.extraweapons.redstone_hoe": "Redstone Hoe",
+    "item.extraweapons.redstone_helmet": "Redstone Helmet",
+    "item.extraweapons.redstone_chestplate": "Redstone Chestplate",
+    "item.extraweapons.redstone_leggings": "Redstone Leggings",
+    "item.extraweapons.redstone_boots": "Redstone Boots",
+
+    "item.extraweapons.lapis_pickaxe": "Lapis Lazuli Pickaxe",
+    "item.extraweapons.lapis_axe": "Lapis Lazuli Axe",
+    "item.extraweapons.lapis_sword": "Lapis Lazuli Sword",
+    "item.extraweapons.lapis_shovel": "Lapis Lazuli Shovel",
+    "item.extraweapons.lapis_hoe": "Lapis Lazuli Hoe",
+    "item.extraweapons.lapis_helmet": "Lapis Lazuli Helmet",
+    "item.extraweapons.lapis_chestplate": "Lapis Lazuli Chestplate",
+    "item.extraweapons.lapis_leggings": "Lapis Lazuli Leggings",
+    "item.extraweapons.lapis_boots": "Lapis Lazuli Boots",
+
+    "item.extraweapons.emerald_pickaxe": "Emerald Pickaxe",
+    "item.extraweapons.emerald_axe": "Emerald Axe",
+    "item.extraweapons.emerald_sword": "Emerald Sword",
+    "item.extraweapons.emerald_shovel": "Emerald Shovel",
+    "item.extraweapons.emerald_hoe": "Emerald Hoe",
+    "item.extraweapons.emerald_helmet": "Emerald Helmet",
+    "item.extraweapons.emerald_chestplate": "Emerald Chestplate",
+    "item.extraweapons.emerald_leggings": "Emerald Leggings",
+    "item.extraweapons.emerald_boots": "Emerald Boots"
+}
