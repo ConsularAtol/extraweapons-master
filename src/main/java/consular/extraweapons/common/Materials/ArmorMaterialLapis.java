@@ -9,11 +9,13 @@ import net.minecraft.sound.SoundEvents;
 
 public class ArmorMaterialLapis implements ArmorMaterial{
 
+    //Durability and protection amounts in order from boots to helmet.
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
     private static final int[] PROTECTION_AMOUNTS = new int[] {2, 5, 3, 1};
 
     @Override
     public int getDurability(EquipmentSlot arg0) {
+        //Multiply the durability
         return BASE_DURABILITY[arg0.getEntitySlotId()]*10;
     }
     @Override
