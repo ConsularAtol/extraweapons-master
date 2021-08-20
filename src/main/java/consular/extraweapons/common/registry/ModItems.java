@@ -26,6 +26,7 @@ public class ModItems {
     public static final ArmorMaterial REDSTONE_ARMOR = new ArmorMaterialRedstone();
     public static final ArmorMaterial LAPIS_ARMOR = new ArmorMaterialLapis();
     public static final ArmorMaterial EMERALD_ARMOR = new ArmorMaterialEmerald();
+    public static final ArmorMaterial COAL_ARMOR = new ArmorMaterialCoal();
 
     //registers every item.
     public static void registerItems(){
@@ -44,6 +45,11 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(MODID,"emerald_sword"), new SwordBase(new ToolMaterialEmerald()));
         Registry.register(Registry.ITEM,new Identifier(MODID,"emerald_shovel"), new ShovelBase(new ToolMaterialEmerald()));
         Registry.register(Registry.ITEM,new Identifier(MODID,"emerald_hoe"), new HoeBase(new ToolMaterialEmerald()));
+        Registry.register(Registry.ITEM,new Identifier(MODID,"coal_pickaxe"), new PickaxeBase(new ToolMaterialCoal()));
+        Registry.register(Registry.ITEM,new Identifier(MODID,"coal_axe"), new AxeBase(new ToolMaterialCoal()));
+        Registry.register(Registry.ITEM,new Identifier(MODID,"coal_sword"), new SwordBase(new ToolMaterialCoal()));
+        Registry.register(Registry.ITEM,new Identifier(MODID,"coal_shovel"), new ShovelBase(new ToolMaterialCoal()));
+        Registry.register(Registry.ITEM,new Identifier(MODID,"coal_hoe"), new HoeBase(new ToolMaterialCoal()));
 
         Registry.register(Registry.ITEM, new Identifier(MODID,"redstone_helmet"), new BaseArmor(REDSTONE_ARMOR, EquipmentSlot.HEAD));
         Registry.register(Registry.ITEM, new Identifier(MODID,"redstone_chestplate"), new BaseArmor(REDSTONE_ARMOR, EquipmentSlot.CHEST));
@@ -57,5 +63,9 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(MODID,"emerald_chestplate"), new BaseArmor(EMERALD_ARMOR, EquipmentSlot.CHEST));
         Registry.register(Registry.ITEM, new Identifier(MODID,"emerald_leggings"), new BaseArmor(EMERALD_ARMOR, EquipmentSlot.LEGS));
         Registry.register(Registry.ITEM, new Identifier(MODID,"emerald_boots"), new BaseArmor(EMERALD_ARMOR, EquipmentSlot.FEET));
+        Registry.register(Registry.ITEM, new Identifier(MODID,"coal_helmet"), new BaseArmor(COAL_ARMOR, EquipmentSlot.HEAD));
+        Registry.register(Registry.ITEM, new Identifier(MODID,"coal_chestplate"), new BaseArmor(COAL_ARMOR, EquipmentSlot.CHEST));
+        Registry.register(Registry.ITEM, new Identifier(MODID,"coal_leggings"), new BaseArmor(COAL_ARMOR, EquipmentSlot.LEGS));
+        Registry.register(Registry.ITEM, new Identifier(MODID,"coal_boots"), new BaseArmor(COAL_ARMOR, EquipmentSlot.FEET));
     }
 }
