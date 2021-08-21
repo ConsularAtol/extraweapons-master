@@ -27,5 +27,15 @@
     "item.extraweapons.emerald_helmet": "Emerald Helmet",
     "item.extraweapons.emerald_chestplate": "Emerald Chestplate",
     "item.extraweapons.emerald_leggings": "Emerald Leggings",
-    "item.extraweapons.emerald_boots": "Emerald Boots"
+    "item.extraweapons.emerald_boots": "Emerald Boots",
+
+    "item.extraweapons.coal_pickaxe": "Coal Pickaxe",
+    "item.extraweapons.coal_axe": "Coal Axe",
+    "item.extraweapons.coal_sword": "Coal Sword",
+    "item.extraweapons.coal_shovel": "Coal Shovel",
+    "item.extraweapons.coal_hoe": "Coal Hoe",
+    "item.extraweapons.coal_helmet": "Coal Helmet",
+    "item.extraweapons.coal_chestplate": "Coal Chestplate",
+    "item.extraweapons.coal_leggings": "Coal Leggings",
+    "item.extraweapons.coal_boots": "Coal Boots"
 }

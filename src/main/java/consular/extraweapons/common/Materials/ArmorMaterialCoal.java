@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class ArmorMaterialRedstone implements ArmorMaterial{
+public class ArmorMaterialCoal implements ArmorMaterial{
 
     //Durability and protection amounts in order from boots to helmet.
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};

@@ -4,7 +4,7 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialRedstone implements ToolMaterial {
+public class ToolMaterialCoal implements ToolMaterial {
 
     @Override
     public int getDurability() {
@@ -23,7 +23,7 @@ public class ToolMaterialRedstone implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 2;
+        return 1;
     }
 
     @Override
